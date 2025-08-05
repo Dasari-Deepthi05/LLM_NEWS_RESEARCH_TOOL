@@ -27,7 +27,7 @@ main_placeholder = st.empty()
 llm = OpenAI(temperature=0.9, max_tokens=500)
 
 if process_url_clicked:
-    # load data from url
+    # load data from urls
     loader = UnstructuredURLLoader(urls=urls)
     main_placeholder.text("Data Loading...Started...✅✅✅")
     data = loader.load()
@@ -66,4 +66,3 @@ if query:
                 sources_list = sources.split("\n")  # Split the sources by newline
                 for source in sources_list:
                     st.write(source)
-print("Testing commit count")
