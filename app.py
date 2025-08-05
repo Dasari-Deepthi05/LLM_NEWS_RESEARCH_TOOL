@@ -27,7 +27,7 @@ main_placeholder = st.empty()
 llm = OpenAI(temperature=0.9, max_tokens=500)
 
 if process_url_clicked:
-    # load data
+    # load data from url
     loader = UnstructuredURLLoader(urls=urls)
     main_placeholder.text("Data Loading...Started...✅✅✅")
     data = loader.load()
