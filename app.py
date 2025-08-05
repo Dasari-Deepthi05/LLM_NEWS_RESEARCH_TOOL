@@ -66,3 +66,4 @@ if query:
                 sources_list = sources.split("\n")  # Split the sources by newline
                 for source in sources_list:
                     st.write(source)
+print("Testing commit count")
