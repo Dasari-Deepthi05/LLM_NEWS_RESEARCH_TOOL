@@ -1,0 +1,3 @@
+LangChain is an open-source framework designed to simplify the development of applications powered by large language models (LLMs), such as OpenAI's GPT series and other advanced AI models. It provides modular tools and abstractions that allow developers to create, connect, and orchestrate complex workflows involving LLMs, external data, APIs, and additional computation in a flexible, reusable way.
+
+
